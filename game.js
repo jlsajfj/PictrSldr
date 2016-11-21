@@ -1,13 +1,9 @@
 var context = document.getElementById('puzzle').getContext('2d');
 var takePicture = document.querySelector("#take-picture");
 var f=false;
-var width = window.innerWidth
-|| document.documentElement.clientWidth
-|| document.body.clientWidth;
+var width = window.innerWidth||document.documentElement.clientWidth||document.body.clientWidth;
 
-var height = window.innerHeight
-|| document.documentElement.clientHeight
-|| document.body.clientHeight;
+var height = window.innerHeight||document.documentElement.clientHeight||document.body.clientHeight;
 
 takePicture.onchange = function (event) {
             // Get a reference to the taken picture or chosen file
